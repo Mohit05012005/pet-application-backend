@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleform.css">
+</head>
+<body>
+    <h1 id="logo">PET GIVEAWAY</h1>
+    <form id="myform" action="/localhost:9000/form-login">
+       <label   for="petname">PetName:</label>
+       <input id="petname"  name="petname" type="text">
+       <label for="ownername">OwnerName:</label>
+       <input name="ownername" type="text">
+       <label for="Species">Species:</label>
+       <select name="Species" id="Speciess">
+        <option value="bird">Bird</option>
+        <option value="cat">Cat</option>
+        <option value="dog">Dog</option>
+        <option value="cow">Cow</option>
+        <option value="buffalo">Buffalo</option>
+       </select>
+       <label for="petage">PetAge:</label>
+       <input name="petage" type="number">
+       <label for="licence">Licence:</label>
+       <input name="licence" type="text">
+       <label for="">PetImage:</label>
+       <input name="petimage" type="file">
+       <label for="">Address:</label>
+       <input name="address" type="text">
+       <label for="phonenumber">PhoneNumber:</label>
+       <input name="phonenumber" type="number">
+       <label for="mailaddress">mailAddress</label>
+       <input name="mailaddress" type="text">
+       <label for="petdescription">PetDescription:</label>
+       <input name="petdescription" type="text">
+      <input id="submit" type="submit">
+    </form>
+</body>
+</html>
